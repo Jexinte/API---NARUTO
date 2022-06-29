@@ -1,0 +1,145 @@
+/* YellowTail Regular 400 */
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+*,::after,::before {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+    /* COLORS */ 
+
+    --cream :#FFFDD0;
+    --emeraldEntrance : #b68d40;
+    --kaki : #6B8E23;
+}
+
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; */
+    font-family: 'Yellowtail';
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    gap:2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    padding-top: 7.5em;
+    align-items: center;
+    padding-bottom: 2em;
+}
+
+.box {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    background-image: url(unnamed.jpg);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    background-size: cover;
+    position:relative;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.box:hover {
+    animation : rotate 1s ease-in-out;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(-1turn);
+    }
+
+    to {
+        transform:rotate(0);
+    }
+}
+
+
+.box {
+    display: block;
+
+}
+.test{
+    border-radius: 10px;
+    position: absolute;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .2;
+    z-index: 1;
+}
+
+h1 {
+    position: absolute;
+    left:16%;
+    top:39%;
+    box-shadow: 5px 5px 10px black;
+    padding:.1em 1em;
+    z-index: 2;
+    cursor: pointer;
+    color:white;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+section{
+    position: absolute;
+    top:0;
+    padding-inline: 1em;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    width: 100%;
+    z-index: 99999999999;
+}
+
+a:visited {
+    color:black;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+#suna{
+    color:var(--cream);
+}
+
+#kumo{
+    color:var(--emeraldEntrance);
+}
+
+#konoha {
+    color:var(--kaki);
+}
+
+#suna:visited{
+    color:var(--cream);
+}
+
+#kumo:visited {
+    color:var(--emeraldEntrance);
+}
+
+#konoha:visited{
+    color:var(--kaki);
+} 
+nav{
+    display: flex;
+    gap:15em;
+    justify-content: center;
+    font-size: 2em;
+    line-height: 70px;
+}
+
+
+
