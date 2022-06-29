@@ -28,13 +28,7 @@ connexionApiNaruto.then(response => {
         const nameCharacter = document.createElement('h1')
               nameCharacter.setAttribute('id','nameCharacter')
               box.appendChild(nameCharacter)
-              nameCharacter.textContent = element.nom
-
-         const testBox = document.createElement('div')
-               testBox.className ="test"
-                box.append(testBox)     
-        
-        
+              nameCharacter.textContent = element.nom        
     });
 }
 )
