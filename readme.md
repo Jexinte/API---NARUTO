@@ -13,7 +13,7 @@ I'm currently learning nodejs and I was wondering how could I use my new knowled
 - Then launch nodemon and test it !
 
 ### Screenshot
-![Final Result] (screenshot.png)
+![Final Result] (./screenshot.png)
 
 
 ### What I learned
