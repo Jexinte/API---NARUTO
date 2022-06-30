@@ -290,6 +290,67 @@ const personnages = [
         imageHistory:`http://localhost:3000/img/ginkakuHistory.jpg`,
         village:`Kumo`
     },
+
+    {
+        id : 31,
+        nom: `Motoï`,
+        history:`Motoi (モトイ, Motoi) est un shinobi du village caché de Kumo qui est stationné sur Genbu. Il était le meilleur ami de Killer B, jusqu'au jour où le démon Hachibi (démon à 8 queues) qui était scellé dans le cousin de Killer B se déchaina et tua le père de Motoï quand celui-ci et d'autres ninjas tentèrent de le sceller dans le Kohaku no Jôhei. B fut choisi pour être le nouveau jinchûriki de Hachibi. Motoï essaya de le tuer, voulant tuer le démon et, par la même occasion, venger la mort de son père. Il n'y arrivera pas et, rongé par la honte, il ne parlera pas à B pendant 30 ans. Motoï accueillit Naruto Uzumaki, Killer B, Yamato, Aoba Yamashiro et Gaï Maito sur l'Île-Tortue suite à la décision de cacher les jinchûriki de Hachibi et de Kyûbi. Motoï attendit avec Aoba et Gaï chez lui, quand Gaï eut envie de voir Naruto. Arrivé aux chutes, Gaï tenta l'épreuve mais ouvrit les yeux pour tomber nez à nez avec Kisame Hoshigaki tentant de s'enfuir. Motoï utilisa ses capacités sensorielles pour trouver vers où s'enfuyait Kisame. Ils le capturèrent et tentèrent d'obtenir des informations mais il se suicida en se faisant dévorer par des requins qu'il avait invoqués. Ils voulaient voir les informations qu'il avait collectées, mais ils tombèrent dans un piège et un requin prit la fuite avec le rouleau contenant les informations collectées. Comme B n'avait pas pu le rattraper, Motoï invoqua un hibou pour qu'il prévienne le Raikage de la fuite d'informations. `,
+        imageCard:`http://localhost:3000/img/motoiCard.webp`,
+        imageHistory:`http://localhost:3000/img/motoiHistory.webp`,
+        village:`Kumo`
+    },
+
+
+    {
+        id : 32,
+        nom: `Omoï`,
+        history:`Omoï (オモイ, Omoi) est un shinobi de Kumo, et un membre de l'Équipe Samui. Omoï est très prudent et soucieux du détail. Sa tendance à exagérer les situations et à se poser trop de questions qui énerve considérablement sa coéquipière Karui. En effet, il s'imagine souvent des scénarios catastrophes improbables. Omoï aime se jouer du caractère impulsif de Karui, cependant les issues sont souvent douloureuses pour lui. Il accorde un certain respect à ceux qui tiennent leur parole, même s'il s'agit d'un ennemi. Pessimiste de nature, il n'en reste pas moins intelligent et il sait faire face au danger quand nécessaire. Il est prêt à tout donner pour défendre ses principes, comme lorsqu'il voit que le frère de Saï ressuscité, Shin, est forcé de se battre : Omoï ne l'accepte pas et décide de mettre fin à la manipulation. Il a toujours une sucette en bouche même dans les cas les plus grave.  `,
+        imageCard:`http://localhost:3000/img/omoiCard.webp`,
+        imageHistory:`http://localhost:3000/img/omoiHistory.jpg`,
+        village:`Kumo`
+    },
+
+    {
+        id : 33,
+        nom: `Karui`,
+        history:`Karui Akimichi (秋道カルイ, Akimichi Karui) est une kunoichi de Kumo, membre de l'Équipe Samui. Elle se maria plus tard avec Chôji Akimichi et s'installa à Konoha, devenant ainsi une membre du clan Akimichi. Karui est très impulsive et se dispute souvent avec Omoï. Elle a beaucoup de respect pour Killer Bee et est prête à tout pour le retrouver. Malgré ses colères monstres, elle se soucie des autres et même de Naruto après l'avoir passé à tabac.Ses disputes avec Omoï viennent de leurs caractères différents : Karui est souvent énervée par les exagérations imaginatives d'Omoï et elle sort de ses gonds lorsqu'il a tendance à être trop franc avec elle (concernant sa poitrine ou la possibilité qu'un homme veuille d'elle par exemple), finissant souvent par le frapper. `,
+        imageCard:`http://localhost:3000/img/karuiCard.webp`,
+        imageHistory:`http://localhost:3000/img/karuiHistory.jpg`,
+        village:`Kumo`
+    },
+
+    {
+        id : 34,
+        nom: `Mabui`,
+        history:`Mabui (マブイ, Mabui) était une kunoichi et l'assistante d'A, le Quatrième Raikage. Elle transmettait ses ordres au reste du village de Kumo. Elle restait calme dans les situations stressantes et remplissait immédiatement les tâches qu'on lui donnait. En outre, elle, comme Darui, semblait être très contrariée à chaque fois que le Raikage abîmait le mobilier. Mabui possédait une technique unique qui lui permet de transférer des matières sur de longues distances à la vitesse de la lumière. C'est pour cette technique qu'elle a été l'assistante du Raikage. Suite à l'affrontement entre Sasuke Uchiwa et Killer B, le Raikage la chargea de s'arranger pour organiser un Sommet des Kage. Au retour du Raikage et de son frère B à Kumo, elle félicita toute l'équipe s'étant rendue au Sommet et demanda des informations sur l’événement. Elle fut présente lors de la réunion de l'Alliance Shinobi aux côtés de A.Elle fut présente avec le Raikage lorsque le rapport faisant état des ennemis s'opposant à la Première et la Quatrième Division leur parvint.Lorsqu'ils apprirent que Kinkaku utilisait le manteau de Kyûbi, Mabui utilisa sa technique et envoya le Kohaku no jôhei à Darui qui l'utilisa avec l'aide du trio Ino-Shika-Chô pour sceller Kinkaku. Lors de cette guerre, elle resta uniquement dans le Quartier Général (qui se situe dans le Pays de la Foudre) qui fut attaqué par Jûbi et son Orbe des Démons à Queues. `,
+        imageCard:`http://localhost:3000/img/mabuiCard.webp`,
+        imageHistory:`http://localhost:3000/img/mabuiuiHistory.jpg`,
+        village:`Kumo`
+    },
+
+
+
+    {
+        id : 35,
+        nom: `Killer B`,
+        history:`Killer B (キラービー, Kirâbî, Kana : Killer Bee) est un shinobi du village de Kumo, et le jinchûriki de Gyûki, le démon à huit queues.À l'âge de cinq ans, Motoï devint le meilleur ami de B. Ils avaient inventé leur propre salut.
+
+        Il fut choisi pour être le partenaire de A car les Raikage ont toujours eu un allié avec qui combattre et A n'avait pas de frère donc il devait chercher un partenaire avec qui il pouvait exécuter le double Lariat. Après avoir été choisi, Bee obtint son surnom « B » et forma avec A le duo A&B, c'est aussi à partir de là que A et B se considérèrent comme frères.
+        
+        Après que son cousin ait perdu tout contrôle sur Hachibi et qu'il ait tué le père de Motoï ainsi qu'une vingtaine d'autres personnes, Bee fut choisi pour être le nouvel hôte de Hachibi. Avant cela, A vint le voir et lui dit qu'il était une personne très importante pour lui et donna la force à B de dompter Hachibi. Mais dès lors, B endura la même haine et le même dégoût de la part des habitants de Kumo que ceux endurés par Naruto Uzumaki à Konoha. Cependant, il garda toujours le sourire et se poussa à devenir le meilleur Jinchûriki. Cependant, il continua de sourire et de faire de son mieux pour être le meilleur Jinchûriki possible afin de ne pas faire honte à son frère, A, qui se lançait dans la politique. Motoï tenta de tuer B, pensant ainsi tuer Hachibi et venger son père, mais B le désarma et ne lui en voulut pas le moins du monde pour son geste. Motoï, honteux, n'osa plus lui parler durant trente ans.[5] B partit s’entraîner avec son frère sur une ile du pays de la Foudre où se trouvent les Chutes de la Vérité. Depuis une certaine époque, B devint révéré à Kumo en tant que héros ou, comme Motoï l'appelle depuis, le Héros des Héros. Il affronta lors d'une courte bataille Minato Namikaze avec son frère A où il montra sa capacité à utiliser le Hachibi et aussi son style de combat qui impressionna fortement Minato. `,
+        imageCard:`http://localhost:3000/img/killerbCard.webp`,
+        imageHistory:`http://localhost:3000/img/killerbHistory.jpg`,
+        village:`Kumo`
+    },
+
+    {
+        id : 36,
+        nom: `Yugito`,
+        history:`Yugito Nii (二位ユギト, Nii Yugito) était une kunoichi du village caché de Kumo ainsi que le dernier jinchûriki du Démon Chat à Deux Queues, Matatabi. Yugito est devenue le jinchûriki de Nibi vers l'âge de deux ans, et à l'issue d'un dur et terrible entraînement lui ayant été imposé. Elle était capable de garder le contrôle d'elle-même parfaitement lors de ses transformations ainsi que de contrôler et d'utiliser l'immense chakra de son bijû, en s'harmonisant avec celui-ci.[1] Également, à un certain moment dans l'anime, Yugito accepta la mission donnée par Nekobaa consistant à récupérer les empreintes de pattes de Nibi pour l'Encyclopédie des Pattes. Yugito gagna confiance en elle au prix d'un dur travail acharné, faisant d'elle une kunoichi fière et courageuse. Cela fut montré quand elle tendit un piège à deux membres de l'Akatsuki avec elle, jurant qu'ils ne s'en sortiraient pas vivant.[4] Il fut également dit qu'elle était ferme et tranchante, n'agissant jamais dans la précipitation auprès de ses coéquipiers. Yugito était une femme à la peau claire, ayant de longs cheveux blonds lisses noués par des bandages blancs, ainsi que des yeux de couleur noirs. De plus, Yugito portait également un haut à manches court de couleur noire, ainsi qu’une pièce d’armure mauve lui enserrant le ventre et les hanches, s’arrêtant juste au-dessus de sa poitrine, ainsi qu'un pantalon de shinobi noir frappé d'un motif en forme de nuage cousu sur le bas de la jambe gauche du pantalon, et ainsi que sur le haut droit de son T-shirt. Yugito portait également des mitaines mauves ainsi que des bandages blancs lui recouvrent les chevilles et les avant-bras allant du poignet jusqu'aux manches de son vêtement. Elle portait aussi une chaîne de perles enroulée autour de son avant-bras gauche et des sandales noires de shinobi, ainsi qu'un drap rouge autour de sa taille faisant office de ceinture. Quant à son front, il était bien sûr surmonté du bandeau frontal de Kumo.`,
+        imageCard:`http://localhost:3000/img/yugitoCard.webp`,
+        imageHistory:`http://localhost:3000/img/yugitoHistory.jpg`,
+        village:`Kumo`
+    },
 ]
 
 module.exports = personnages

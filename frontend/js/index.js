@@ -1,9 +1,9 @@
 
 const body = document.querySelector('body')
 const container = document.querySelector('.container')
-const message = () => {
-    alert('WELCOME ON MY API BASED ON NARUTO , I URGE YOU TO TAKE NOTE OF "README" IF YOU WANT MORE DETAILS OR JUST TRY IT BY YOURSELF !')
-}
+// const message = () => {
+//     alert('WELCOME ON MY API BASED ON NARUTO , I URGE YOU TO TAKE NOTE OF "README" IF YOU WANT MORE DETAILS OR JUST TRY IT BY YOURSELF !')
+// }
 
 
 /* CONNEXION API */
@@ -19,7 +19,7 @@ connexionApiNaruto.then(response => {
 
 .then( response => {
     response.forEach(element => {
-        
+
         const box = document.createElement('a')
               box.className = "box"
               container.appendChild(box)
@@ -28,7 +28,7 @@ connexionApiNaruto.then(response => {
         const nameCharacter = document.createElement('h1')
               nameCharacter.setAttribute('id','nameCharacter')
               box.appendChild(nameCharacter)
-              nameCharacter.textContent = element.nom        
+              nameCharacter.textContent = element.nom
     });
 }
 )
