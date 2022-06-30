@@ -13,7 +13,8 @@ I'm currently learning nodejs and I was wondering how could I use my new knowled
 - Then launch nodemon and test it !
 
 ### Screenshot
-![image] (https://github.com/Jexinte/API---NARUTO/blob/main/screenshot.png)
+![screenshot](https://user-images.githubusercontent.com/88725081/176664015-06a9b7e4-444f-4ce9-9dff-ee5d9d82999a.png)
+
 
 
 ### What I learned
