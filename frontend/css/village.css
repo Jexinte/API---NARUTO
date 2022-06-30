@@ -24,16 +24,7 @@ body {
     overflow-x: hidden;
 }
 
-.container {
-    display: flex;
-    gap:2em;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: relative;
-    padding-top: 7.5em;
-    align-items: center;
-    padding-bottom: 2em;
-}
+
 
 .box {
     height: 250px;
@@ -134,3 +125,52 @@ nav{
 
 
 
+
+
+.container {
+    display: flex;
+    gap:2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    padding-top:23em;
+    align-items: center;
+    padding-bottom: 5em;
+}
+
+#back{
+    display: block;
+    position: absolute;
+    top:2.2em;
+    left:23em;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+
+#back:visited{
+    color: black;
+}
+
+.fa-solid {
+    font-size: 3em;
+    padding: 1em;
+}
+.fa-solid:hover{
+
+    animation : moveToLeft ease-in 700ms
+}
+
+
+@keyframes moveToLeft {
+    
+    from {
+        position: relative;
+        right: 0px;
+    }
+    
+    to {
+        position: relative;
+        right: 12px;
+    }
+}

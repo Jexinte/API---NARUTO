@@ -28,6 +28,7 @@ body {
     align-items: center;
     min-height: 100vh;
     position: relative;
+    padding-bottom: 2em;
 }
 
 
@@ -49,6 +50,7 @@ body {
 section{
     position: absolute;
     top:0;
+    left:0;
     padding-inline: 1em;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
     width: 100%;
@@ -97,20 +99,26 @@ nav{
 
 
 .container {
-    margin-top: 4em;
+    margin-top: 15em;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
     width: 1440px;
 }
 
 .left {
-background-image: url(https://i.pinimg.com/originals/d5/a0/af/d5a0af036c458dbbbabe3445f4cce6f4.jpg);
 background-size: cover;
 width: 50%;
 }
 
-h1 {
+.right{
+    width: 50%;
+}
+
+.nameOfTheCharacter {
     text-align: center;
+    text-decoration: underline;
+    padding-top: 1em;
+
 }
 
 
@@ -121,8 +129,8 @@ h1 {
     display: block;
 }
 
-p{
+.historyOfTheCharacter{
     line-height: 2.8em;
     padding-inline: 2em;
-    font-size: 1em;
+    font-size: 2em;
 }

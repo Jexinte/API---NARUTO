@@ -1,6 +1,7 @@
 const express = require('express')
 const morgan = require('morgan')
 const listesPersonnages = require('./models/personnages_data')
+
 const app = express()
 const port = 3000
 app.use(morgan('dev'))
@@ -14,9 +15,11 @@ app.use((req, res, next) => {
 
 
 app.use('/img',express.static('img'))
+
 app.get('/api/personnages',(req,res) => {
-    res.json(listesPersonnages)
+  res.json(listesPersonnages)
 })
+
 
 
 app.listen(port,() => console.log(`L'application a bien démarrer sur le port ${port}`))
