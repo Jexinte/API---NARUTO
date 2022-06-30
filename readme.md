@@ -1,7 +1,8 @@
 
 # Overview
 
-API - NARUTO
+The NARUTO API allows you to select character cards in order to see their history. It is also possible to display only characters according to their village via the horizontal menu
+
 ## Why Building It ?
 
 I'm currently learning nodejs and I was wondering how could I use my new knowledge and an idea pop in my mind and that the API is his result. It's not responsive at all I was mainly focus on having fun to build the API and the design is very simple and I like it 
