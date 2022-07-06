@@ -7,19 +7,22 @@ I love the work of Masashi Kishimoto known as "Naruto" and I simply said to myse
 
 The API is not responsive it was not the goal the important for me was to have fun and it's done so I can continue my learning! Who knows, maybe soon I'll add the possibility to create your own character card of the same universe?
 
+## Warning !
 
-## How to use it
+- Don't be surprise if music is running on background it's normal 
+
+### How to use it
 
 - Use git clone https://github.com/Jexinte/API---NARUTO.git
 - Go in the backend folder and launch npm install
 - Then launch nodemon and test it !
 
-### Screenshot
+#### Screenshot
 ![screenshot](https://user-images.githubusercontent.com/88725081/176664015-06a9b7e4-444f-4ce9-9dff-ee5d9d82999a.png)
 
 
 
-### What I learned
+##### What I learned
 
  I learned how to use :
  - Express middleware
@@ -31,11 +34,11 @@ The API is not responsive it was not the goal the important for me was to have f
   and more that I can count...
 
 
-#### Update 
+###### Update 
 
 - Sequelize ORM have been implemented
 - MVC Structure have been added
-
+- Music have been added on homepage and each village
 
 #### Author
 
