@@ -27,11 +27,14 @@ The API is not responsive it was not the goal the important for me was to have f
  - Dynamic Paramaters
 
   and more that I can count...
+<<<<<<< HEAD
 
 #### Update 
 
 - Sequelize ORM have been implemented
 - MVC Structure have been added
+=======
+>>>>>>> 77c32df7bf5cbf7db1f19c78f3967553d91a50eb
 
 #### Author
 
