@@ -2,9 +2,6 @@
 const body = document.querySelector('body')
 const container = document.querySelector('.container')
 
-// const message = () => {
-//     alert('WELCOME ON MY API BASED ON NARUTO , I URGE YOU TO TAKE NOTE OF "README" IF YOU WANT MORE DETAILS OR JUST TRY IT BY YOURSELF !')
-// }
 
 
 /* CONNEXION API */
@@ -19,21 +16,21 @@ connexionApiNaruto.then(response => {
 })
 
 .then( response => {
-    response.forEach(element => {
+    response.map(personnage => {
         const searchParams = new URLSearchParams(window.location.search)
         const village = searchParams.get('village')
 
-        if(element.village === village) {
+        if(personnage.village === village) {
 
             const box = document.createElement('a')
             box.className = "box"
             container.appendChild(box)
-            box.style.backgroundImage= `url(${element.imageCard})`
-            box.href = `./personnage.html?id=${element.id}`
+            box.style.backgroundImage= `url(${personnage.imageCard})`
+            box.href = `./personnage.html?id=${personnage.id}`
             const nameCharacter = document.createElement('h1')
             nameCharacter.setAttribute('id','nameCharacter')
             box.appendChild(nameCharacter)
-            nameCharacter.textContent = element.nom
+            nameCharacter.textContent = personnage.nom
         }
         });
 }
