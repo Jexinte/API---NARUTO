@@ -1,10 +1,12 @@
 
 # Overview
 
-API - NARUTO
-## Why Building It ?
+I'm re-learning Nodejs and I was wondering how to best integrate my knowledge and obviously practice was the right answer however I didn't want to go on any project where I wouldn't enjoy building my API so an idea came to my mind.
 
-I'm currently learning nodejs and I was wondering how could I use my new knowledge and an idea pop in my mind and that the API is his result. It's not responsive at all I was mainly focus on having fun to build the API and the design is very simple and I like it 
+I love the work of Masashi Kishimoto known as "Naruto" and I simply said to myself that I could create cards of characters on which at the click you could have a small overview of the history of the characters and also have the possibility to display only the characters according to their villages.
+
+The API is not responsive it was not the goal the important for me was to have fun and it's done so I can continue my learning! Who knows, maybe soon I'll add the possibility to create your own character card of the same universe?
+
 
 ## How to use it
 
@@ -13,7 +15,8 @@ I'm currently learning nodejs and I was wondering how could I use my new knowled
 - Then launch nodemon and test it !
 
 ### Screenshot
-![Final Result] (screenshot.png)
+![screenshot](https://user-images.githubusercontent.com/88725081/176664015-06a9b7e4-444f-4ce9-9dff-ee5d9d82999a.png)
+
 
 
 ### What I learned
@@ -23,7 +26,12 @@ I'm currently learning nodejs and I was wondering how could I use my new knowled
  - The use of promises
  - Dynamic Paramaters
 
-  and more that I can count 
+  and more that I can count...
+
+#### Update 
+
+- Sequelize ORM have been implemented
+- MVC Structure have been added
 
 #### Author
 

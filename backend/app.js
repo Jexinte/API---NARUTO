@@ -1,7 +1,11 @@
 const express = require('express')
 const morgan = require('morgan')
-const listesPersonnages = require('./models/personnages_data')
-
+const sequelize = require('./db/sequelize')
+const findAllPersonnages = require('./routes/findAllPersonnages')
+const findPersonnageByPk = require('./routes/findPersonnageByPk')
+const createPersonnage = require('./routes/createPersonnage')
+const updatePersonnage = require('./routes/updatePersonnage')
+const deletePersonnage = require('./routes/deletePersonnage')
 const app = express()
 const port = 3000
 app.use(morgan('dev'))
@@ -13,13 +17,15 @@ app.use((req, res, next) => {
     next();
   });
 
-
+app.use(express.json())
 app.use('/img',express.static('img'))
 
-app.get('/api/personnages',(req,res) => {
-  res.json(listesPersonnages)
-})
-
-
-
+// Connexion bdd
+sequelize.initialisationDeLaBaseDeDonnées()
+// Routes
+findAllPersonnages(app)
+findPersonnageByPk(app)
+createPersonnage(app)
+updatePersonnage(app)
+deletePersonnage(app)
 app.listen(port,() => console.log(`L'application a bien démarrer sur le port ${port}`))
