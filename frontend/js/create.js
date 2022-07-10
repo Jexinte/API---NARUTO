@@ -30,7 +30,7 @@ form.addEventListener('submit',(e) =>
 		body: new FormData(form),
 
 	})
-	.then(async(res) => {
+	.then((res) => {
 		if(res.status === 201)
 			window.location.href ="index.html"
 	})

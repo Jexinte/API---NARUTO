@@ -146,3 +146,20 @@ img{
 #submit:hover {
     box-shadow: 10px 10px 10px rgba(0,0,0,0.9);
 }
+
+
+#back{
+    display: block;
+    position: absolute;
+    top:.2em;
+    left:44%;
+    z-index: 9999999999;
+}
+
+#back:visited{
+    color: black;
+}
+.fa-solid {
+    font-size: 3em;
+    padding: 1em;
+}
