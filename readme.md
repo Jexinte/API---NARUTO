@@ -23,8 +23,10 @@ The API is not responsive it was not the goal the important for me was to have f
 ![screenshot](https://user-images.githubusercontent.com/88725081/176664015-06a9b7e4-444f-4ce9-9dff-ee5d9d82999a.png)
 
 # Screenshot V2
-[!screenshot] https://github.com/Jexinte/API---NARUTO/blob/main/screenshot2.png
-[!screenshot] https://github.com/Jexinte/API---NARUTO/blob/main/screenshot3.png
+![screenshot2](https://user-images.githubusercontent.com/88725081/178142201-07ed58cf-3533-448b-bcc6-8feb1e753543.png)
+
+![screenshot3](https://user-images.githubusercontent.com/88725081/178142211-da37ae4d-e79a-43d7-85c3-cc3a3b85530b.png)
+
 
 # What I learned
 
