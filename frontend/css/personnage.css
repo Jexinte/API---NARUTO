@@ -65,9 +65,6 @@ a {
 }
 
 
-#suna{
-    color:var(--cream);
-}
 
 #kumo{
     color:var(--emeraldEntrance);
@@ -77,9 +74,6 @@ a {
     color:var(--kaki);
 }
 
-#suna:visited{
-    color:var(--cream);
-}
 
 #kumo:visited {
     color:var(--emeraldEntrance);
@@ -88,9 +82,24 @@ a {
 #konoha:visited{
     color:var(--kaki);
 }
+
+#suna{
+    color:#ead80b;
+}
+
+#suna:visited{
+    color:#ead80b;
+}
+#create {
+    color: #1291e5;
+}
+
+#create:visited{
+    color: #1291e5;
+}
 nav{
     display: flex;
-    gap:15em;
+    gap:9em;
     justify-content: center;
     font-size: 2em;
     line-height: 70px;

@@ -102,7 +102,7 @@ a {
 }
 
 #suna{
-    color:var(--cream);
+    color:#ead80b;
 }
 
 #kumo{
@@ -114,7 +114,7 @@ a {
 }
 
 #suna:visited{
-    color:var(--cream);
+    color:#ead80b;
 }
 
 #kumo:visited {
@@ -123,10 +123,18 @@ a {
 
 #konoha:visited{
     color:var(--kaki);
-} 
+}
+
+#create {
+    color: #1291e5;
+}
+
+#create:visited{
+    color: #1291e5;
+}
 nav{
     display: flex;
-    gap:15em;
+    gap:9em;
     justify-content: center;
     font-size: 2em;
     line-height: 70px;

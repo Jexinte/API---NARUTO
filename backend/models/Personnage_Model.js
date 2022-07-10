@@ -18,12 +18,13 @@ module.exports = (sequelize,DataTypes) => {
             },
             imageCard : {
                 type:DataTypes.STRING,
-                allownull:false
+                allownull:false,
+              
             },
 
             imageHistory : {
                 type:DataTypes.STRING,
-                allownull : false
+                allownull : false,
             },
 
             village : {

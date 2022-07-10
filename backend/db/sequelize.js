@@ -1,17 +1,17 @@
 const {Sequelize,DataTypes} = require('sequelize')
-let listesPersonnages = require('./personnages_data') // Contient les données des personnages
+const listesPersonnages = require('./personnages_data') // Contient les données des personnages
 const PersonnagesModel = require('../models/Personnage_Model') // Contient la structure de données attendue pour les personnages
-
+require('dotenv').config()
 const sequelize = new Sequelize (
-    'personnages',
-    'yokke',
-    'Sdxcgh88900#',
+    `${process.env.NAME_DB}`,
+    `${process.env.NAME_USER}`,
+    `${process.env.MDP}#`,
     
     {
         
-        host:'localhost',
-        port:3307,
-        dialect:'mariadb',
+        host:`${process.env.HOST}`,
+        port:`${process.env.PORT}`,
+        dialect:`${process.env.DIALECT}`,
         dialectOptions : {
             timezone: 'Etc/GMT-2'
         },
@@ -42,7 +42,8 @@ const sequelize = new Sequelize (
                  imageCard : personnage.imageCard,
                  imageHistory:personnage.imageHistory,
                  village:personnage.village
-           }).then(personnage => console.log(personnage.toJSON()))
+           })
+        //    .then(personnage => console.log(personnage.toJSON()))
          }) // A ne mettre en place que dans le cas où des données existantes doivent être insérées  !
     
     })

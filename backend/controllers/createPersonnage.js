@@ -1,7 +1,15 @@
 const { Personnages } = require('../db/sequelize')
 
-exports.CreatePersonnage = (req,res)  => {
-        const message = 'Le personnage suivant a été crée :'
-        Personnages.create({...req.body})
-        .then(personnage => res.json({message:message, data : personnage}))
+exports.createPersonnage = (req,res)  => {
+       const personnageObject = JSON.stringify(req.body)
+       const personnage = JSON.parse(personnageObject)
+       Personnages.create({
+               
+               nom : personnage.nom,
+               history : personnage.history,
+               imageCard : `${req.protocol}://${req.get('host')}/img/${req.files['imageCard'][0].filename}`,
+               imageHistory : `${req.protocol}://${req.get('host')}/img/${req.files['imageHistory'][0].filename}`,
+               village:personnage.village
+        })    
+                .then(personnage => res.status(201).json(personnage))
 }

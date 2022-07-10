@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/logo.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../frontend/css/create.css">
+    <title>API NARUTO - Add Character </title>
+</head>
+<body>
+    <!-- <audio id="myAudio" autoplay>
+        <source src="./music/Naruto Gekitō Ninja Taisen! 4 - Suna (Theme of the Hidden Sand Village) [1080p].mp3" type="audio/mp3">
+    </audio> -->
+    <section>
+            <nav>
+                <a class="village" href="./create.html" id="create">Add Character</a>
+                <a class="village" href="./konoha.html?village=Konoha"  id="konoha">Konoha</a>
+                <a class="village" href="./kumo.html?village=Kumo" id="kumo">Kumo</a>
+                <a class="village" href="./suna.html?village=Suna" id="suna">Suna</a>
+            </nav>
+    </section>
+  
+    <div class="container">
+       <form action ="/api/personnages" method="post" enctype="multipart/form-data">
+
+        <!-- NAME -->
+        <label for="name"> Name of the character : </label><br><input id="name" name="nom" type="text" size="80" placeholder="Naruto" > <br>
+        
+        <!-- HISTORY -->
+        <label for="history">History of the character :</label><br> <textarea name="history" id="history" cols="30" rows="10" placeholder="He who does not progress every day goes backwards every day..."></textarea> <br>
+        
+        <!-- IMAGE CARD -->
+        <label for="imageCard">An img of the character for his card : </label><br> <input type="file" name="imageCard" id="imageCard" accept="image/png,image/jpg,image/webp" onchange = previewImg(event)>
+        <img id="output"  alt="">
+        <img id="preview" hidden>
+        <br>
+
+        <!-- IMAGE HISTORY -->
+        <label for="imageHistory">An img of the character for his history : </label><br> <input type="file" name="imageHistory" id="imageHistory" accept="image/png,image/jpg,image/webp" <!-- onchange = previewImg2(event) --> > <br>
+        <img id="output2"  alt="">
+        <img id="preview2" src="" alt="" hidden>
+
+        <!-- VILLAGE  -->
+        <label for="village">Village of the character : </label><br><input id="village" name="village" type="text" size="80" placeholder="Kiri"> <br>
+        <input type="submit" id="submit" value="Submit">
+       </form>
+
+    </div>
+
+<script src="./js/create.js"></script>
+</body>
+</html>

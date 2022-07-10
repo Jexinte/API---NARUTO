@@ -1,0 +1,148 @@
+/* YellowTail Regular 400 */
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+*,::after,::before {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+    /* COLORS */ 
+
+    --cream :#FFFDD0;
+    --emeraldEntrance : #b68d40;
+    --kaki : #6B8E23;
+}
+
+body {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    font-family: 'Yellowtail';
+    overflow-x: hidden;
+    background-image: url('http://cdn.wallpaperhi.com/1280x800/20120308/uchiha%20sasuke%20naruto%20shippuden%20blade%20pixiv%20anime%20boys%20chidori%20white%20background%201280x800%20wallpape_www.wallpaperhi.com_68.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+section{
+    position: absolute;
+    top:0;
+    padding-inline: 1em;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    width: 100%;
+    z-index: 99999999999;
+}
+
+a:visited {
+    color:black;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+#suna{
+    color:#ead80b;
+}
+
+#kumo{
+    color:var(--emeraldEntrance);
+}
+
+#konoha {
+    color:var(--kaki);
+}
+
+#suna:visited{
+    color:#ead80b;
+}
+
+#kumo:visited {
+    color:var(--emeraldEntrance);
+}
+
+#konoha:visited{
+    color:var(--kaki);
+}
+
+#create {
+    color: #1291e5;
+}
+
+#create:visited{
+    color: #1291e5;
+}
+nav{
+    display: flex;
+    gap:9em;
+    justify-content: center;
+    font-size: 2em;
+    line-height: 70px;
+    z-index: 8;
+}
+
+form {
+
+    padding: 8em;
+    font-size: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 8em;
+  
+}
+
+input, textarea {
+    width: 80%;
+    margin-bottom: 2em;
+    height: 40px;
+}
+
+label {
+    margin-bottom: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+#name,#history,#village {
+    border:none;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.9);
+}
+
+
+img{   
+     width: 20%;
+     margin-bottom: 2em;
+}
+
+::placeholder {
+  
+    font-weight: bolder;
+    font-family: 'YellowTail';
+    text-transform:capitalize ;
+}
+
+#submit {
+    border: none;
+    background: none;
+    font-family: 'YellowTail';
+    font-size: 1em;
+    position: relative;
+    cursor: pointer;
+    margin-top: 2em;
+    padding: 1em;
+    transition: box-shadow 200ms ease-in-out;
+}
+
+#submit:hover {
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.9);
+}
