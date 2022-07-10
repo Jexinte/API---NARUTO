@@ -23,6 +23,8 @@ The API is not responsive it was not the goal the important for me was to have f
 ![screenshot](https://user-images.githubusercontent.com/88725081/176664015-06a9b7e4-444f-4ce9-9dff-ee5d9d82999a.png)
 
 # Screenshot V2
+[!screenshot] https://github.com/Jexinte/API---NARUTO/blob/main/screenshot2.png
+[!screenshot] https://github.com/Jexinte/API---NARUTO/blob/main/screenshot3.png
 
 # What I learned
 
